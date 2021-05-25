@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def url_principal():
-	return render_template("template.html",nombre="Karen")
+	return render_template("template3.html")
 
 @app.route("/principal")
 def principal():
